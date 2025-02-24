@@ -1,6 +1,6 @@
-# 📘 DocuMind AI  
+# 📘 Mind AI  
 
-DocuMind AI is an intelligent document assistant that allows users to upload PDF research documents and interact with them using AI-powered queries. The system processes, indexes, and retrieves relevant document segments to generate precise responses.  
+Mind AI is an intelligent assistant that allows users to upload PDF research documents and interact with them using AI-powered queries. The system processes, indexes, and retrieves relevant document segments to generate precise responses.  
 
 ## 🚀 Features  
 
@@ -28,3 +28,20 @@ cd RAG-With-Deep-Seek
 python -m venv env
 source env/bin/activate  # On Windows use: env\Scripts\activate
 ```
+3️⃣ Install Dependencies
+```bash
+pip install -r req.txt
+```
+4️⃣ Run the Application
+```bash
+streamlit run rag_deep.py
+```
+🏗️ Project Structure
+```bash
+📂 your-repo-name
+ ┣ 📂 pdfs/               # Folder for storing uploaded PDFs
+ ┣ 📜 app.py              # Main application script
+ ┣ 📜 requirements.txt    # Dependencies list
+ ┣ 📜 README.md           # Project documentation
+```
+
